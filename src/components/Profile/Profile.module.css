@@ -1,0 +1,14 @@
+.avatar{
+    border-radius: 50%;
+    width: 200px;
+}
+.description{
+text-align: center;
+}
+.stats{
+    text-align: center;
+}
+.name{
+    font-size: 18px;
+        font-weight: 700;
+}
