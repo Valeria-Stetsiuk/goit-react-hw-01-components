@@ -1,9 +1,12 @@
 .avatar{
     border-radius: 50%;
-    width: 200px;
+    width: 150px;
 }
 .description{
 text-align: center;
+margin: auto;
+width:350px;
+background-color: #fff;
 }
 .stats{
     text-align: center;
@@ -11,4 +14,11 @@ text-align: center;
 .name{
     font-size: 18px;
         font-weight: 700;
+        color: #1F3349;
 }
+.tag{
+   color: #7F8E9D;
+}
+.location{color: #7F8E9D;}
+.label{color: #7F8E9D;}
+.quantity{color: #1F3349;}
