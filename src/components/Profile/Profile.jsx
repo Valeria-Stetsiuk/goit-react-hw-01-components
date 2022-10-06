@@ -22,15 +22,15 @@ export const Profile = ({ firstUser }) => {
             </div>
 
             <ul className={styleProfile.stats}>
-                <li>
+                <li className={styleProfile.item}>
                     <span className={styleProfile.label}>Followers</span>
                     <span className={styleProfile.quantity}>{followers}</span>
                 </li>
-                <li>
+                <li className={styleProfile.item}>
                     <span className={styleProfile.label}>Views</span>
                     <span className={styleProfile.quantity}>{views}</span>
                 </li>
-                <li>
+                <li className={styleProfile.item}>
                     <span className={styleProfile.label}>Likes</span>
                     <span className={styleProfile.quantity}>{likes}</span>
                 </li>

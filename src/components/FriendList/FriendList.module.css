@@ -1,10 +1,29 @@
+.friend-list{
+    margin: auto;
+    text-align: center;
+    width: 410px;
+}
+.item{
+    display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: solid 2px #d8e0ea;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+}
+.item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
 .statusOnline{
     display: block;
-        width: 20px;
+       
         height: 20px;
+        width: 20px;
         border-radius: 50%;
         background-color: green;
-        margin: 0 15px 0 15px;
+        margin: 0 15px;
 }
 .statusOffline{
     composes: statusOnline;

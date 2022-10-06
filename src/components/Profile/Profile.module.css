@@ -1,15 +1,35 @@
 .avatar{
     border-radius: 50%;
     width: 150px;
+    background-color: #d8e0ea;
+}
+.profile{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+    text-align: center;
+    
 }
 .description{
-text-align: center;
-margin: auto;
-width:350px;
-background-color: #fff;
+    padding: 30px;
+    width:350px;
+    border: 2px solid #d8e0ea;
+   
 }
 .stats{
-    text-align: center;
+    background-color: #ECF1F3;
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    border: 2px solid #d8e0ea;
+    }
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex-basis: calc(100% / 3);
+    outline: 1px solid #d8e0ea;
 }
 .name{
     font-size: 18px;
@@ -20,5 +40,11 @@ background-color: #fff;
    color: #7F8E9D;
 }
 .location{color: #7F8E9D;}
-.label{color: #7F8E9D;}
-.quantity{color: #1F3349;}
+.label{color: #7F8E9D;
+font-size: 18px;}
+.quantity{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1F3349;
+}
