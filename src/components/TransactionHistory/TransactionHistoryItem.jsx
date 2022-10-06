@@ -4,9 +4,9 @@ export const TransactionHistoryItem = ({ id,type,amount,currency }) => {
     return (
        <>
      <tr className={s.transactionDesk}>
-      <td >{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+      <td className={s.transactionType}>{type}</td>
+      <td className={s.transactionType}>{amount}</td>
+      <td className={s.transactionType}>{currency}</td>
             </tr>
     </>
    )

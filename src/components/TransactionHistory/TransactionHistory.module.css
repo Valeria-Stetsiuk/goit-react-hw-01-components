@@ -1,0 +1,14 @@
+.transactionHistory{
+    margin: 30px auto;
+    text-align: center;
+}
+.transactionHead{
+    background-color: #4CC6F5;;
+        color: #fff;
+        height: 40px;
+}
+.transactionType{
+    border:2px solid #d8e0ea;;
+    padding: 5px 100px;
+}
+.transactionDesk:nth-child(2n){background-color: #ecf1f3;}
